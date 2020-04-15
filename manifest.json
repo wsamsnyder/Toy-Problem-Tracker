@@ -1,0 +1,27 @@
+{
+  "name": "Toy Problem Tracker",
+  "version": "1.0",
+  "description": "This will help you track your toy problem progress!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "options_page": "options.html",
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "hackReactorLogo.png",
+      "32": "hackReactorLogo.png",
+      "48": "hackReactorLogo.png",
+      "128": "hackReactorLogo.png"
+    }
+  },
+  "icons": {
+    "16": "hackReactorLogo.png",
+    "32": "hackReactorLogo.png",
+    "48": "hackReactorLogo.png",
+    "128": "hackReactorLogo.png"
+  },
+  "manifest_version": 2
+}

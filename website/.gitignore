@@ -1,0 +1,8 @@
+#node
+node_modules
+
+#bundle
+public/bundle.js
+
+
+#env stuff

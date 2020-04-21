@@ -2,7 +2,7 @@
 node_modules
 
 #bundle
-public/bundle.js
+dist/bundle.js
 
 
 #env stuff

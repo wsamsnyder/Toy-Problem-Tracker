@@ -28,5 +28,6 @@ module.exports = {
     "react/forbid-prop-types": "off",
     "no-console": "off",
     "comma-dangle": "off"
-  }
+  },
+  "ignorePatters":["bundle.js"]
 };
